@@ -1,0 +1,24 @@
+<p>home works!</p>
+
+<table>
+    <thead>
+        <tr>
+            <td>ID Nation</td>
+            <td>ID Year</td>
+            <td>Nation</td>
+            <td>Population</td>
+            <td>Slug Nation</td>
+            <td>Year</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of data">
+            <td>{{ item['ID Nation'] }}</td>
+            <td>{{ item['ID Year'] }}</td>
+            <td>{{ item['Nation'] }}</td>
+            <td>{{ item['Population'] }}</td>
+            <td>{{ item['Slug Nation'] }}</td>
+            <td>{{ item['Year'] }}</td>
+        </tr>
+    </tbody>
+</table>
